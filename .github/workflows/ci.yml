@@ -1,2 +1,4 @@
 name: CI
-on: [push, pull_r
+on: [push, pull_request]
+env:
+  NODE_VERSI
