@@ -1,4 +1,4 @@
 name: CI
 on: [push, pull_request]
 env:
-  NODE_VERSI
+  NODE_VERSION_USED_FOR_DEVELOPMENT: 
