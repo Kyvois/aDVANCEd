@@ -1,4 +1,7 @@
 name: CI
 on: [push, pull_request]
 env:
-  NODE_VERSION_USED_FOR_DEVELOPMENT: 
+  NODE_VERSION_USED_FOR_DEVELOPMENT: 14
+jobs:
+  lint:
+    name: Lin
