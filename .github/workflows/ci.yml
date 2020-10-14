@@ -4,4 +4,5 @@ env:
   NODE_VERSION_USED_FOR_DEVELOPMENT: 14
 jobs:
   lint:
-    name: Lin
+    name: Lint source files
+    runs-on:
