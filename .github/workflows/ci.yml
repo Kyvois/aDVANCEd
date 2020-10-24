@@ -5,4 +5,5 @@ env:
 jobs:
   lint:
     name: Lint source files
-    runs-on:
+    runs-on: ubuntu-latest
+    steps:
