@@ -18,4 +18,5 @@ jobs:
       - name: Cache Node.js modules
         uses: actions/cache@v2
         with:
-      
+          path: ~/.npm
+     
