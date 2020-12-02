@@ -16,4 +16,6 @@ jobs:
           node-version: ${{ env.NODE_VERSION_USED_FOR_DEVELOPMENT }}
 
       - name: Cache Node.js modules
-        uses: actions/cache
+        uses: actions/cache@v2
+        with:
+      
