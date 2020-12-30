@@ -28,4 +28,5 @@ jobs:
       - name: Lint ESLint
         run: npm run lint
 
-      - n
+      - name: Type Check
+      
