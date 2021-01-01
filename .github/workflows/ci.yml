@@ -31,4 +31,5 @@ jobs:
       - name: Type Check
         run: npm run check
 
-      - name: Lint Pretti
+      - name: Lint Prettier
+        run: npm 
