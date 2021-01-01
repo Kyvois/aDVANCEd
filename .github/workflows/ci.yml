@@ -31,4 +31,4 @@ jobs:
       - name: Type Check
         run: npm run check
 
-   
+      - name: Lint Pretti
