@@ -32,4 +32,6 @@ jobs:
         run: npm run check
 
       - name: Lint Prettier
-        run: npm 
+        run: npm run prettier:check
+
+  coverage:
