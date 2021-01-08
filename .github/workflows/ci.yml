@@ -35,3 +35,4 @@ jobs:
         run: npm run prettier:check
 
   coverage:
+    name: Measure
