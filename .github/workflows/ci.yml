@@ -37,4 +37,5 @@ jobs:
   coverage:
     name: Measure test coverage
     runs-on: ubuntu-latest
-    s
+    steps:
+      - name: Checko
