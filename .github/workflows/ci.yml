@@ -38,4 +38,5 @@ jobs:
     name: Measure test coverage
     runs-on: ubuntu-latest
     steps:
-      - name: Checko
+      - name: Checkout repo
+        uses: actions/chec
