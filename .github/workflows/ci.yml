@@ -39,4 +39,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/chec
+        uses: actions/checkout@v2
+
+      - name: S
