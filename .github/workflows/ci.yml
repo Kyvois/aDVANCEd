@@ -41,4 +41,5 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: S
+      - name: Setup Node.js
+        uses: a
