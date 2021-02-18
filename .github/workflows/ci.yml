@@ -42,4 +42,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: a
+        uses: actions/setup-node@v1
