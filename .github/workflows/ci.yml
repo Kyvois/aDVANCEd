@@ -44,4 +44,4 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-ver
+          node-version: ${{ env.NODE_VER
