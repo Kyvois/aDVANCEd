@@ -55,3 +55,4 @@ jobs:
             ${{ runner.OS }}-node-
 
       - name: Install Dependencies
+        run: npm
