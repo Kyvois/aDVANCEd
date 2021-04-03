@@ -57,4 +57,5 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Run tests an
+      - name: Run tests and measure code coverage
+   
