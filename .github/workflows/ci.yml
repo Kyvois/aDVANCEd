@@ -58,4 +58,7 @@ jobs:
         run: npm ci
 
       - name: Run tests and measure code coverage
-        run: npm run tes
+        run: npm run testonly:cov
+
+  test:
+    
