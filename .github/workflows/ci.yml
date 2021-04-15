@@ -61,4 +61,4 @@ jobs:
         run: npm run testonly:cov
 
   test:
-    name: Run tests on Node v${
+    name: Run tests on Node v${{ matrix.node_version_
