@@ -67,3 +67,5 @@ jobs:
       matrix:
         node_version_to_setup: [12, 14, 16]
     steps:
+      - name: Checkout repo
+ 
