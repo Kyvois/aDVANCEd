@@ -72,4 +72,5 @@ jobs:
 
       - name: Setup Node.js v${{ matrix.node_version_to_setup }}
         uses: actions/setup-node@v1
-        wi
+        with:
+          node-version:
