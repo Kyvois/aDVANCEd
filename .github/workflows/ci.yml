@@ -73,4 +73,6 @@ jobs:
       - name: Setup Node.js v${{ matrix.node_version_to_setup }}
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node_version_to_s
+          node-version: ${{ matrix.node_version_to_setup }}
+
+      - name: Cache
