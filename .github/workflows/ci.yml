@@ -76,4 +76,6 @@ jobs:
           node-version: ${{ matrix.node_version_to_setup }}
 
       - name: Cache Node.js modules
-        uses: actions/cach
+        uses: actions/cache@v2
+        with:
+          pat
