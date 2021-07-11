@@ -79,4 +79,4 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ~/.npm
-          key: ${
+          key: ${{ runner.OS }}-nod
