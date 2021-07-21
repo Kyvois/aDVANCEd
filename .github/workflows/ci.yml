@@ -83,4 +83,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-
 
-      - name: Install Dependenci
+      - name: Install Dependencies
+        run: npm ci
+
+      
