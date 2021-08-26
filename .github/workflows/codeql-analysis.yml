@@ -22,4 +22,5 @@ on:
 
 jobs:
   analyze:
-    name:
+    name: Analyze
+    runs-on:
