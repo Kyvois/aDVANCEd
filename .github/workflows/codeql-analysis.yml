@@ -23,4 +23,5 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on:
+    runs-on: ubuntu-latest
+    permi
