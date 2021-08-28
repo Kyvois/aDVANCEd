@@ -24,4 +24,5 @@ jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
-    permi
+    permissions:
+      action
