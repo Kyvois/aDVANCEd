@@ -25,4 +25,5 @@ jobs:
     name: Analyze
     runs-on: ubuntu-latest
     permissions:
-      action
+      actions: read
+      contents: r
