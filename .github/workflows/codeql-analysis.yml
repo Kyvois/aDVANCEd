@@ -26,4 +26,5 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       actions: read
-      contents: r
+      contents: read
+      security-events
