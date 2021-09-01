@@ -27,4 +27,6 @@ jobs:
     permissions:
       actions: read
       contents: read
-      security-events
+      security-events: write
+
+    stra
