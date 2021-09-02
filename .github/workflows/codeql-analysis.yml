@@ -29,4 +29,5 @@ jobs:
       contents: read
       security-events: write
 
-    stra
+    strategy:
+      fail-fas
