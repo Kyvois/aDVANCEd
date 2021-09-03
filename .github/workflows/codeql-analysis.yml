@@ -30,4 +30,6 @@ jobs:
       security-events: write
 
     strategy:
-      fail-fas
+      fail-fast: false
+      matrix:
+     
