@@ -33,4 +33,4 @@ jobs:
       fail-fast: false
       matrix:
         language: ['javascript']
-        # CodeQL supp
+        # CodeQL supports [ 'cpp', 'c
