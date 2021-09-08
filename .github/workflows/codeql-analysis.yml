@@ -35,4 +35,4 @@ jobs:
         language: ['javascript']
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python' ]
         # Learn more:
-        # https://docs
+        # https://docs.github.com/en/free-pro-te
