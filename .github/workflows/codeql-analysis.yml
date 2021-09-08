@@ -34,4 +34,5 @@ jobs:
       matrix:
         language: ['javascript']
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python' ]
-        # Le
+        # Learn more:
+        # https://docs
