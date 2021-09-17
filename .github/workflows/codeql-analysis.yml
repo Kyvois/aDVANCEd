@@ -39,4 +39,6 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/ch
+        uses: actions/checkout@v2
+
+      # Ini
