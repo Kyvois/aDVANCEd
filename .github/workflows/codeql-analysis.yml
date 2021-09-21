@@ -46,3 +46,4 @@ jobs:
         uses: github/codeql-action/init@v1
         with:
           languages: ${{ matrix.language }}
+          # If you wis
