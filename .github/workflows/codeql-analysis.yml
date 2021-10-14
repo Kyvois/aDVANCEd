@@ -56,4 +56,4 @@ jobs:
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
 
-      # ℹ️ Com
+      # ℹ️ Command-line programs to run using the O
