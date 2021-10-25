@@ -67,4 +67,5 @@ jobs:
       #   make bootstrap
       #   make release
 
-      - name: Perform Co
+      - name: Perform CodeQL Analysis
+        uses: githu
