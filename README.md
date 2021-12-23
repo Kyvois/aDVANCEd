@@ -1,3 +1,3 @@
 # koa-bearer-token
 
-[![npm v
+[![npm version](https://badge.fury
