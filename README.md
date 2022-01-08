@@ -6,4 +6,4 @@
 
 > Bearer token parser middleware for koa
 
-Inspired by [express-bear
+Inspired by [express-bearer-token](https://www.
