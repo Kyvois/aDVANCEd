@@ -6,4 +6,6 @@
 
 > Bearer token parser middleware for koa
 
-Inspired by [express-bearer-token](https://www.npmjs.com/package/ex
+Inspired by [express-bearer-token](https://www.npmjs.com/package/express-bearer-token)
+
+## Instal
