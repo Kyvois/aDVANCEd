@@ -8,4 +8,7 @@
 
 Inspired by [express-bearer-token](https://www.npmjs.com/package/express-bearer-token)
 
-## Instal
+## Installation
+
+```sh
+$ npm i
