@@ -11,4 +11,7 @@ Inspired by [express-bearer-token](https://www.npmjs.com/package/express-bearer-
 ## Installation
 
 ```sh
-$ npm i
+$ npm install koa-bearer-token
+```
+
+## 
