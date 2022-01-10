@@ -14,4 +14,6 @@ Inspired by [express-bearer-token](https://www.npmjs.com/package/express-bearer-
 $ npm install koa-bearer-token
 ```
 
-## 
+## What?
+
+Per [RFC6750]
