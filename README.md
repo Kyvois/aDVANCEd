@@ -16,4 +16,4 @@ $ npm install koa-bearer-token
 
 ## What?
 
-Per [RFC6750]
+Per [RFC6750](https://datatracker.iet
