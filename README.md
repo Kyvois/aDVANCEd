@@ -16,4 +16,4 @@ $ npm install koa-bearer-token
 
 ## What?
 
-Per [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) th
+Per [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) this module will attem
