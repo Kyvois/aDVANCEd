@@ -16,4 +16,6 @@ $ npm install koa-bearer-token
 
 ## What?
 
-Per [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) this module will attempt to extract a bearer token from a request 
+Per [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) this module will attempt to extract a bearer token from a request from these locations:
+
+- T
