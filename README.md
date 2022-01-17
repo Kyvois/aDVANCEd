@@ -19,4 +19,5 @@ $ npm install koa-bearer-token
 Per [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) this module will attempt to extract a bearer token from a request from these locations:
 
 - The key `access_token` in the request body.
-- The key `access_token` in the request query param
+- The key `access_token` in the request query params.
+- The value fro
