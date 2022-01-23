@@ -21,4 +21,6 @@ Per [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) this module will at
 - The key `access_token` in the request body.
 - The key `access_token` in the request query params.
 - The value from the header `Authorization: Bearer <token>`.
-- (Optional) Get a token from cookies header with key `access_tok
+- (Optional) Get a token from cookies header with key `access_token`.
+
+If a token is found, it
