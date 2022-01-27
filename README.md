@@ -23,4 +23,6 @@ Per [RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) this module will at
 - The value from the header `Authorization: Bearer <token>`.
 - (Optional) Get a token from cookies header with key `access_token`.
 
-If a token is found, it will be stored on `ctx.request.token`. If one has been provided in more than one location, this will abort the request immediately by sending code 400 (
+If a token is found, it will be stored on `ctx.request.token`. If one has been provided in more than one location, this will abort the request immediately by sending code 400 (per [RFC6750]).
+
+```js
