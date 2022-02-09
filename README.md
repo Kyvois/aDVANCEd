@@ -28,4 +28,4 @@ If a token is found, it will be stored on `ctx.request.token`. If one has been p
 ```js
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
-const { bearerT
+const { bearerToken } = require('koa-bear
