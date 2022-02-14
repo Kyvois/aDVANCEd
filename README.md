@@ -32,4 +32,5 @@ const { bearerToken } = require('koa-bearer-token');
 
 const app = new Koa();
 
-app.us
+app.use(bodyParser());
+app.
