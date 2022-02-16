@@ -36,4 +36,7 @@ app.use(bodyParser());
 app.use(bearerToken());
 
 app.use((ctx) => {
-  // ctx.
+  // ctx.request.token
+});
+
+app.listen(
