@@ -35,4 +35,5 @@ const app = new Koa();
 app.use(bodyParser());
 app.use(bearerToken());
 
-app.
+app.use((ctx) => {
+  // ctx.
