@@ -42,4 +42,4 @@ app.use((ctx) => {
 app.listen(3000);
 ```
 
-For APIs which are not compliant
+For APIs which are not compliant with [RFC6750], the key for t
