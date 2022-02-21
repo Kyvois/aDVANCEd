@@ -42,4 +42,4 @@ app.use((ctx) => {
 app.listen(3000);
 ```
 
-For APIs which are not compliant with [RFC6750], the key for the token in each location is customizable, as is the key
+For APIs which are not compliant with [RFC6750], the key for the token in each location is customizable, as is the key the token is bound to on the
