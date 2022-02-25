@@ -47,4 +47,5 @@ For APIs which are not compliant with [RFC6750], the key for the token in each l
 ```js
 app.use(
   bearerToken({
-    bodyKey: 'acces
+    bodyKey: 'access_token',
+    query
