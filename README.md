@@ -50,4 +50,7 @@ app.use(
     bodyKey: 'access_token',
     queryKey: 'access_token',
     headerKey: 'Bearer',
-    reqKey
+    reqKey: 'token',
+  }),
+);
+`
