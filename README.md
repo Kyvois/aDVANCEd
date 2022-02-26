@@ -49,4 +49,5 @@ app.use(
   bearerToken({
     bodyKey: 'access_token',
     queryKey: 'access_token',
-    headerK
+    headerKey: 'Bearer',
+    reqKey
