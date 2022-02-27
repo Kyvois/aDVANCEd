@@ -55,4 +55,4 @@ app.use(
 );
 ```
 
-Get token from cookie k
+Get token from cookie key (it can be sign
