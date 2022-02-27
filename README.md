@@ -53,4 +53,6 @@ app.use(
     reqKey: 'token',
   }),
 );
-`
+```
+
+Get token from cookie k
