@@ -57,4 +57,4 @@ app.use(
 
 Get token from cookie key (it can be signed or not)
 
-**Warning**: by **
+**Warning**: by **NOT** passing `{ signed: true }` yo
