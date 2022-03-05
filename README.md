@@ -57,4 +57,4 @@ app.use(
 
 Get token from cookie key (it can be signed or not)
 
-**Warning**: by **NOT** passing `{ signed: true }` you are accepting a non signed cookie and an attacker 
+**Warning**: by **NOT** passing `{ signed: true }` you are accepting a non signed cookie and an attacker might spoof the cookies. s
