@@ -61,4 +61,6 @@ Get token from cookie key (it can be signed or not)
 
 ```js
 app.use(
-  bearerToken
+  bearerToken({
+    cookie: {
+      sign
