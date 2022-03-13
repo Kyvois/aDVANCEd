@@ -63,4 +63,5 @@ Get token from cookie key (it can be signed or not)
 app.use(
   bearerToken({
     cookie: {
-      signed: true, // if passed true you must pass secret otherwise will throw e
+      signed: true, // if passed true you must pass secret otherwise will throw error
+      secret: 'Y
