@@ -64,4 +64,5 @@ app.use(
   bearerToken({
     cookie: {
       signed: true, // if passed true you must pass secret otherwise will throw error
-      secret: 'Y
+      secret: 'YOUR_APP_SECRET',
+      key: 'acc
