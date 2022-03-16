@@ -65,4 +65,9 @@ app.use(
     cookie: {
       signed: true, // if passed true you must pass secret otherwise will throw error
       secret: 'YOUR_APP_SECRET',
-      key: 'access_token', // default va
+      key: 'access_token', // default value
+    },
+  }),
+);
+```
+
