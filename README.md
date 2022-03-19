@@ -71,3 +71,6 @@ app.use(
 );
 ```
 
+## TypeScript
+
+As of version 2.0
