@@ -73,4 +73,4 @@ app.use(
 
 ## TypeScript
 
-As of version 2.0
+As of version 2.0.1 we've added initial suppor
