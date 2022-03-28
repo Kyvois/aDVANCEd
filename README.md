@@ -75,4 +75,4 @@ app.use(
 
 As of version 2.0.1 we've added initial support for TypeScript.
 
-If you're using your custom `reqKey`, you must do [module au
+If you're using your custom `reqKey`, you must do [module augmentation](https://
