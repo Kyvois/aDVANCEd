@@ -77,4 +77,5 @@ As of version 2.0.1 we've added initial support for TypeScript.
 
 If you're using your custom `reqKey`, you must do [module augmentation](https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation) on your own:
 
-`
+```ts
+declare module 'koa
