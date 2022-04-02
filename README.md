@@ -79,4 +79,5 @@ If you're using your custom `reqKey`, you must do [module augmentation](https://
 
 ```ts
 declare module 'koa' {
-  interface Req
+  interface Request {
+    myToken?
