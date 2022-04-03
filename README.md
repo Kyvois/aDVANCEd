@@ -85,3 +85,5 @@ declare module 'koa' {
 }
 
 app.use(
+  bearerToken({
+    reqKey: 'myTo
