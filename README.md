@@ -94,4 +94,5 @@ app.use(
 ## Compatibility table
 
 | koa version | koa-bearer-token version |
-| :---------: | :---------
+| :---------: | :----------------------: |
+|    `<
