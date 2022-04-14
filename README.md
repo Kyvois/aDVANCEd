@@ -95,4 +95,5 @@ app.use(
 
 | koa version | koa-bearer-token version |
 | :---------: | :----------------------: |
-|    `<2`     |         `0.x.x
+|    `<2`     |         `0.x.x`          |
+|     `2`  
