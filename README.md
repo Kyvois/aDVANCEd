@@ -100,4 +100,4 @@ app.use(
 
 ## License
 
-MIT © [C
+MIT © [C. T. Lin](https://github.co
