@@ -1,2 +1,2 @@
 module.exports = {
-  '*packag
+  '*package.json': ['prettier-package-js
