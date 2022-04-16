@@ -1,2 +1,3 @@
 module.exports = {
-  '*package.json': ['prettier-package-js
+  '*package.json': ['prettier-package-json --write'],
+  '*.(js|ts)': [
