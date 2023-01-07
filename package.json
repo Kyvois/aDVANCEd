@@ -5,3 +5,29 @@
   "description": "Bearer token parser middleware for koa",
   "license": "MIT",
   "author": "C. T. Lin <chentsulin@gmail.com> (https://github.com/chentsulin)",
+  "homepage": "https://github.com/chentsulin/koa-bearer-token",
+  "repository": "chentsulin/koa-bearer-token",
+  "bugs": {
+    "url": "https://github.com/chentsulin/koa-bearer-token/issues"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "check": "tsc --noEmit",
+    "clean": "rimraf lib",
+    "lint": "eslint .",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run clean && npm test && npm run build",
+    "test": "npm run lint && npm run testonly",
+    "testonly": "jest",
+    "testonly:cov": "jest --coverage",
+    "prettier": "prettier --write --list-different .",
+    "prettier:check": "prettier --check .",
+    "preversion": "npm test"
+  },
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "cookie": "^0.4.1",
