@@ -32,3 +32,24 @@ it('token should be undefined when no token provided', async () => {
 });
 
 it('finds a bearer token in post body under "access_token" and sets it to request.token', async () => {
+  const app = setup();
+
+  let requestToken;
+  app.use((ctx) => {
+    requestToken = ctx.request.token;
+  });
+
+  await request(app.callback()).post('/').send({ access_token: token });
+
+  expect(requestToken).toBe(token);
+});
+
+it('finds a bearer token in query string under "access_token" and sets it to request.token', async () => {
+  const app = setup();
+
+  let requestToken;
+  app.use((ctx) => {
+    requestToken = ctx.request.token;
+  });
+
+  await request(app.callback()).get('/').query({ access_token: token });
