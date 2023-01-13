@@ -77,3 +77,28 @@ it('finds a bearer token in post body under an arbitrary key and sets it to requ
 
   let requestToken;
   app.use((ctx) => {
+    requestToken = ctx.request.token;
+  });
+
+  await request(app.callback()).post('/').send({ test: token });
+
+  expect(requestToken).toBe(token);
+});
+
+it('finds a bearer token in query string under "access_token" and sets it to request.token', async () => {
+  const app = setup({ queryKey: 'test' });
+
+  let requestToken;
+  app.use((ctx) => {
+    requestToken = ctx.request.token;
+  });
+
+  await request(app.callback()).get('/').query({ test: token });
+
+  expect(requestToken).toBe(token);
+});
+
+it('finds a bearer token in headers under "authorization: <anykey>" and sets it to request.token', async () => {
+  const app = setup({ headerKey: 'test' });
+
+  let requestToken;
