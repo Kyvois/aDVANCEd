@@ -132,3 +132,24 @@ it('finds a bearer token in header NON SIGNED cookies[<anykey>] and sets it to r
 
   let requestToken;
   app.use((ctx) => {
+    requestToken = ctx.request.token;
+  });
+
+  await request(app.callback()).get('/').set('Cookie', `test=${token};`);
+
+  expect(requestToken).toBe(token);
+});
+
+// for testing reqKey
+declare module 'koa' {
+  interface Request {
+    test?: string;
+  }
+}
+
+it('finds a bearer token and sets it to request[<anykey>]', async () => {
+  const app = setup({ reqKey: 'test' });
+
+  let requestToken;
+  app.use((ctx) => {
+    requestToken = ctx.request.test;
