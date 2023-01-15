@@ -41,3 +41,28 @@ export function bearerToken<
   const reqKey = opts.reqKey ?? 'token';
   const cookie = opts.cookie ?? false;
   const cookieKey = cookie && cookie.key ? cookie.key : 'access_token';
+
+  if (cookie && cookie.signed && !cookie.secret) {
+    throw new Error(
+      '[koa-bearer-token]: You must provide a secret token to cookie attribute, or disable signed property',
+    );
+  }
+
+  return (ctx, next) => {
+    const { body, header, query } = ctx.request;
+
+    let count = 0;
+    let token;
+
+    if (query && query[queryKey]) {
+      token = query[queryKey];
+      count += 1;
+    }
+
+    if (body && body[bodyKey]) {
+      token = body[bodyKey];
+      count += 1;
+    }
+
+    if (header) {
+      if (header.authorization) {
