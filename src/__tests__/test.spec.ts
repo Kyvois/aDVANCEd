@@ -153,3 +153,21 @@ it('finds a bearer token and sets it to request[<anykey>]', async () => {
   let requestToken;
   app.use((ctx) => {
     requestToken = ctx.request.test;
+  });
+
+  await request(app.callback()).post('/').send({ access_token: token });
+
+  expect(requestToken).toBe(token);
+});
+
+it('aborts with 400 if token is provided in more than one location', async () => {
+  const app = setup();
+
+  const res = await request(app.callback())
+    .post('/')
+    .query({ access_token: 'query-token' })
+    .send({ access_token: 'body-token' })
+    .set('Authorization', `Bearer header-token`);
+
+  expect(res.status).toBe(400);
+});
