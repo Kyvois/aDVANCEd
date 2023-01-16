@@ -94,3 +94,15 @@ export function bearerToken<
     if (count > 1) {
       ctx.throw(400, 'token_invalid', {
         message: `token MUST NOT be provided in more than one place`,
+      });
+      return;
+    }
+
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore if `reqKey` isn't `token`, the users must do module augmentation on their own
+    ctx.request[reqKey] = token;
+
+    // eslint-disable-next-line consistent-return
+    return next();
+  };
+}
