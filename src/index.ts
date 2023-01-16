@@ -66,3 +66,31 @@ export function bearerToken<
 
     if (header) {
       if (header.authorization) {
+        const parts = header.authorization.split(' ');
+        if (parts.length === 2 && parts[0] === headerKey) {
+          [, token] = parts;
+          count += 1;
+        }
+      }
+
+      // cookie
+      if (cookie && header.cookie) {
+        const plainCookie = getCookie(header.cookie, cookieKey); // seeks the key
+        if (plainCookie) {
+          const cookieToken = cookie.signed
+            ? cookieParser.signedCookie(plainCookie, cookie.secret)
+            : plainCookie;
+
+          if (cookieToken) {
+            token = cookieToken;
+            count += 1;
+          }
+        }
+      }
+    }
+
+    // RFC6750 states the access_token MUST NOT be provided
+    // in more than one place in a single request.
+    if (count > 1) {
+      ctx.throw(400, 'token_invalid', {
+        message: `token MUST NOT be provided in more than one place`,
