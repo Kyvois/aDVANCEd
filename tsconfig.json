@@ -1,3 +1,4 @@
 {
   "compilerOptions": {
-    "targ
+    "target": "es2018",
+    "modul
