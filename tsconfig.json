@@ -1,4 +1,5 @@
 {
   "compilerOptions": {
     "target": "es2018",
-    "modul
+    "module": "commonjs",
+    "lib"
