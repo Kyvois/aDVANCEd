@@ -3,4 +3,5 @@
     "target": "es2018",
     "module": "commonjs",
     "lib": ["es2018"],
-    "declaration": 
+    "declaration": true,
+    "isolatedMo
