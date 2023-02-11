@@ -5,4 +5,5 @@
     "lib": ["es2018"],
     "declaration": true,
     "isolatedModules": true,
-    "strict"
+    "strict": true,
+    "noImplici
