@@ -6,4 +6,5 @@
     "declaration": true,
     "isolatedModules": true,
     "strict": true,
-    "noImplici
+    "noImplicitAny": true,
+    "strictNullChe
