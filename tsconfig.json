@@ -8,4 +8,5 @@
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "strictFuncti
+    "strictFunctionTypes": true,
+    "stric
