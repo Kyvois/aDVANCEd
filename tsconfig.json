@@ -9,4 +9,4 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
-    "stric
+    "strictBindCallApply": true,
