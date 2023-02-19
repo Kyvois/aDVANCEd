@@ -12,3 +12,5 @@
     "strictBindCallApply": true,
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "
