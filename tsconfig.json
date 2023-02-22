@@ -14,4 +14,4 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-  
+    "noImplicitReturns": tr
