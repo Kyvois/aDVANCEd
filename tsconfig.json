@@ -15,4 +15,5 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCa
+    "noFallthroughCasesInSwitch": true,
+    "no
