@@ -16,4 +16,5 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": t
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverr
