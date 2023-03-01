@@ -19,4 +19,4 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "m
+    "moduleResolution": "nod
