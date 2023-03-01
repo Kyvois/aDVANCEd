@@ -18,4 +18,4 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    "noP
+    "noPropertyAccessFromInde
