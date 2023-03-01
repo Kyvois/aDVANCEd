@@ -18,4 +18,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    "noPropertyAccessFromInde
+    "noPropertyAccessFromIndexSignature": true,
+    "m
