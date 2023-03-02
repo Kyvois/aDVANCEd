@@ -19,4 +19,5 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "moduleResolution": "nod
+    "moduleResolution": "node",
+    "esModuleInterop": tru
