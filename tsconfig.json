@@ -22,4 +22,6 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFil
+    "forceConsistentCasingInFileNames": true
+  }
+}
