@@ -20,4 +20,6 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "moduleResolution": "node",
-    "esModuleInterop": tru
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceCo
